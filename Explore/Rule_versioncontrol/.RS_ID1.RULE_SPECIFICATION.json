@@ -1,0 +1,64 @@
+{
+  "objectInfo" : {
+    "id" : "htOzkVmLcE9lzB1H3vxggT",
+    "name" : "RS_ID1",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "htOzkVmLcE9lzB1H3vxggT"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "ตรวจสอบเฉพาะบุคคลธรรมดา ZKTBCCODE in (1010,1020,4010)\nกรณีประเทศไทย   (MCNTRY)                                              \n- รหัสไปรษณีย์ของ ที่อยู่ที่ติดต่อได้ (MZIP) ห้ามขึ้นต้นด้วย 0 \n-รหัสไปรณีย์ของที่อยู่ที่ติดต่อได้  (MZIP) ห้ามเป็นค่าว่าง                                                       \nกรณีประเทศที่อยู่ตามทะเบียนบ้าน(PCNTRY) หรือประเทศที่อยู่ที่ติดต่อได้(MCNTRY) เป็นประเทศอื่นๆที่ไม่ใช่ประเทศไทย   \n - รหัสไปรษณีย์ (MZIP,PZIP) ต้องบันทึกเป็น 00000 เท่านั้น\nทดสอบ schcema : เงื่อนไขตรวจสอบการบันทึกรหัสไปรษณีย์ให้ถูกต้อง สัมพันธ์กับตำบล อำเภอ จังหวัด  ตามตาราง excel ไปรษณีย์ที่แยก file   ",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ {
+    "id" : "hCJyUj8SeIOekgXD4ZKn2b",
+    "name" : "Dictionary_Individual",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hCJyUj8SeIOekgXD4ZKn2b"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/DEMO_GSB"
+  }, {
+    "id" : "3jeEclXASuBhdVbRSaEFux",
+    "name" : "Dictionary_Address_TH",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3jeEclXASuBhdVbRSaEFux"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/DEMO_GSB"
+  } ]
+}
